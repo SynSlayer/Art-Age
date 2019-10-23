@@ -2,7 +2,7 @@ body{
     background-color: grey;
 margin: 0;
 padding: 0px;
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -21,18 +21,18 @@ list-style: none;
 header{
     background-color: black;
 height: 100px;
-
 }
+
 h1{
 float: left;
 margin-left: 20px;
-margin-right: 20px;
+margin-right: 50px;
 color: grey;
-
+text-shadow: 3px 3px 3px 3px yellow
 }
 
 nav li{
-    display:inline-block;
+    display: inline-block;
     margin-right: 50px;
     margin-top: 30px;
 
@@ -46,7 +46,6 @@ font-size: 20px;
 
 nav li a:hover{
     color: yellow;
-
 }
 
 main{
@@ -55,6 +54,28 @@ main{
     margin: 30px auto;
 }
 
+#hero{
+    width: 100%;
+}
+
+main li{
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+main li:last-child{
+    margin-right:0;
+}
+
+section{
+    margin-top: 30px;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+}
 
 
 
